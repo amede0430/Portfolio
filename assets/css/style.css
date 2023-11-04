@@ -1,0 +1,140 @@
+* {
+    font-family: sans-serif;
+}
+
+.redressed {
+    font-family: 'Redressed', cursive;
+}
+
+.merriweather {
+    font-family: 'Merriweather', serif;
+}
+
+.p-navbar {
+    background-color: rgba(0, 0, 0, 0.9);
+    font-family: 'Merriweather', serif;
+    box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.54);
+    z-index: 99;
+}
+
+.p-navbar .nav-link {
+    border-bottom: 1px solid transparent;
+    transition: padding-bottom .4s ease-in-out, border-color .3s ease;
+}
+
+.p-navbar .nav-link:hover {
+    padding-bottom: 15px;
+    border-bottom-color: var(--bs-teal);
+}
+
+.i-absent {
+    display: none;
+    transition: 0ms;
+}
+
+.i-present {
+    display: block;
+    transition: 0ms;
+}
+
+.body {
+    background-color: rgba(12, 9, 12, 0.9);
+}
+
+.btn-order {
+    color: var(--bs-teal);
+    border-color: var(--bs-teal);
+    transition: 0.5s;
+}
+
+.btn-order:hover,
+.btn-order:active {
+    color: #fff;
+    background-color: var(--bs-teal);
+}
+
+.porfolio {
+    background-color: #5496a8;
+}
+
+.servi {
+    background-color: #5496a8;
+}
+
+@media ( min-width: 1200px) {
+    #services .card {
+        background: url(codage-programme-informatique-ecran.jpg), url(mkm1.jpg);
+        background-repeat: no-repeat;
+        background-size: 50%, 50%;
+        background-position: top left, bottom right;
+        background-attachment: scroll;
+    }
+    .bloc {
+        position: relative;
+        width: 300px;
+        height: 300px;
+        margin: auto;
+        visibility: visible;
+    }
+}
+
+@media ( max-width: 1200px) {
+    #services .card {
+        background-image: url(mkm1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .bloc {
+        width: 200px;
+        height: 200px;
+        margin: auto;
+    }
+    .navsmallscreen li {
+        text-align: end;
+    }
+}
+
+#contact {
+    background-color: rgba(12, 9, 12, 0.9);
+    padding-bottom: 15px;
+}
+
+.form-select option {
+    transition: .5s;
+}
+
+.conta {
+    background-color: #5496a8;
+}
+
+.p-footer .nav-link:hover {
+    color: green;
+    border-bottom: 1px solid transparent;
+    transition: padding-bottom .4s ease-in-out, border-color .3s ease;
+}
+
+.foot {
+    margin-top: 20px;
+    border-top: 1px solid white;
+    color: white;
+}
+
+.cont {
+    display: flex;
+}
+
+.contactme {
+    /* margin: auto; */
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.contactme .nav-link {
+    border-bottom: 1px solid transparent;
+    transition: padding-bottom .4s ease-in-out, border-color .3s ease;
+}
+
+.contactme .nav-link:hover {
+    padding-bottom: 10px;
+    border-bottom-color: var(--bs-teal);
+}
